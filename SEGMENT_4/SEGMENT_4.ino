@@ -5,12 +5,6 @@ int d = 7;
 int e = 6;
 int f = 5;
 int g = 4;
-int buzzer=A0;     
-  
- void
-setup(){  
-  pinMode(buzzer,OUTPUT);   
-}  
 
 void setup() {
   for (int i = 10; i >= 4; i--) {
